@@ -11,19 +11,19 @@ export default function Projects() {
 
       <div className="flex flex-col md:flex-row mt-4 gap-5">
         <ProjectCard
-          name="Top 10 SELEKNAS ASEAN Skills Competition ITNSA 2022"
-          issued="KEMENAKER RI"
-          desc="Linux Server, Windows Server, Linux Routing, Cisco Troubleshooting, Cisco Network Analysis, Network and System Programmabillity, Containerized Service."
+          name="Uploading Soon..."
+          issued="Dev-Richie"
+          desc="MERN Stack"
         />
         <ProjectCard
-          name="3rd Place Winner of IT Network System Administration - LKS Jawa Tengah"
-          issued="KEMENDIKBUD RI"
-          desc="Linux Server, Windows Server, Cisco Configuration, Cisco Troubleshooting, Network and System Programmabillity, Containerized Service."
+          name="Uploading Soon..."
+          issued="Dev-Richie"
+          desc="MERN Stack"
         />
         <ProjectCard
-          name="1st Place Winner of IT Network System Administration - LKS Kab. Tegal"
-          issued="KEMENDIKBUD RI"
-          desc="Linux Server, Cisco Configuration."
+          name="Uploading Soon..."
+          issued="Dev-Richie"
+          desc="MERN Stack"
         />
       </div>
       <img src={hr} className="w-full mt-8 md:h-2" alt="hr" />

@@ -41,19 +41,22 @@ export default function Hero() {
             <h1 className="text-2xl font-bold">Richmond Gakpetor</h1>
             <p class="text-xl font-bold text-gray-300">Full-stack Developer</p>
             <p className="text-md font-light text-gray-400 ">
-              Skilled developer with expertise in the MERN (MongoDB, Express.js,
-              React.js, and Node.js) stack. Proven ability to design, develop,
-              and deploy robust and scalable web applications, utilizing
-              industry best practices and cutting-edge technologies.
+              I'm a passionate developer with expertise in the MERN (MongoDB,
+              Express.js, React.js, and Node.js) stack.
               <p>
-                Adept at collaborating with cross-functional teams and clients
-                to deliver exceptional projects within tight deadlines.
+                Having proven communication skills, I'm good at collaborating
+                with cross-functional teams and clients to deliver exceptional
+                projects within tight deadlines.
               </p>
               <p>
-                An avid learner seeking to leverage skills and experience to
-                contribute to a dynamic and innovative team in a challenging and
-                rewarding environment.
+                I'm truly passionate about learning and do consume knowledge
+                pretty fast too.
               </p>{" "}
+              <p>
+                I'm seeking to leverage my skills and experience to contribute
+                to a dynamic and innovative team in a challenging and rewarding
+                environment.
+              </p>
             </p>
           </div>
 
