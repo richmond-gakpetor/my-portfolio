@@ -1,4 +1,4 @@
-import logo from '../assets/isolated-monochrome-white.svg';
+import logo from '../assets/logo.svg';
 import resume from "../assets/resume.pdf"
 
 export default function Navbar() {
