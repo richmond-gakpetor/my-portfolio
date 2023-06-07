@@ -1,9 +1,10 @@
 import hr from "../assets/curve-hr.svg";
 import ProjectCard from "./ProjectCard.js";
 
-import netlyfe from "../assets/projects/netlyfe.gif"
-import keeper from "../assets/projects/keeper.gif"
-import portfolio from "../assets/projects/dev_portfolio.gif"
+import netlyfe from "../assets/projects/netlyfe.gif";
+import keeper from "../assets/projects/keeper.gif";
+import portfolio from "../assets/projects/dev_portfolio.gif";
+import signup from "../assets/projects/bolt-driver-signup.gif";
 
 export default function Projects() {
   return (
@@ -25,6 +26,12 @@ export default function Projects() {
           name="NoteKeeper"
           repoLink="https://github.com/richmond-gakpetor/keeper-app"
           desc="Need to write a note? Check out the Keeper app. Beatifully designed, excellent functionality!"
+        />
+        <ProjectCard
+          img={signup}
+          name="Bolt Driver Sign Up"
+          repoLink="https://github.com/richmond-gakpetor/driver-signup"
+          desc="I recreated the Bolt Sign Up page. Love it?"
         />
         <ProjectCard
           img={portfolio}
