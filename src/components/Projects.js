@@ -16,12 +16,6 @@ export default function Projects() {
 
       <div className="flex flex-col md:flex-row mt-4 gap-5">
         <ProjectCard
-          img={netlyfe}
-          name="Netlyfe App"
-          repoLink="https://github.com/bernie-dev-1/Netlyfe/tree/auth"
-          desc="Web app for medical consultations and education on diseases"
-        />
-        <ProjectCard
           img={keeper}
           name="NoteKeeper"
           repoLink="https://github.com/richmond-gakpetor/keeper-app"
@@ -38,6 +32,12 @@ export default function Projects() {
           name="My Portfolio"
           repoLink="https://github.com/richmond-gakpetor/my-portfolio"
           desc="Here you'll find some of the projects I've worked on. Check it out!"
+        />
+        <ProjectCard
+          img={netlyfe}
+          name="Netlyfe App"
+          repoLink="https://github.com/bernie-dev-1/Netlyfe/tree/auth"
+          desc="Web app for medical consultations and education on diseases"
         />
       </div>
       <img src={hr} className="w-full mt-8 md:h-2" alt="hr" />

@@ -32,7 +32,7 @@ export default function Skills() {
       <h1 className="text-2xl font-bold">Skills</h1>
       <p className="font-light text-gray-400">Here are some of my top skills</p>
 
-      <div className="mt-4">
+      <div className="mt-15 sm:mt-4">
         <Slider {...settings}>
           <SkillCard name="bash" experience="1+ years" img={bash} />
           <SkillCard name="python" experience="1+ years" img={python} />

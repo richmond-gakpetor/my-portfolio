@@ -1,13 +1,26 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import profile from "../assets/profile.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import {faCircleArrowRight, } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedinIn,
+  faYoutube,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 import hr from "../assets/curve-hr.svg";
 
 export default function Hero() {
   const [loaded, setLoaded] = useState(true);
+
+  useEffect(() => {
+    const navbarHeight = 68; // Adjust this value to match your actual navbar height
+    const hero = document.getElementById("home");
+    if (hero) {
+      hero.style.marginTop = `${navbarHeight}px`;
+    }
+  }, []);
 
   return (
     <>
@@ -39,24 +52,25 @@ export default function Hero() {
           <div className="flex flex-col w-full mt-8">
             <h1 className="text-xl text-gray-400">Hi, I'm</h1>
             <h1 className="text-2xl font-bold">Richmond Gakpetor</h1>
-            <p class="text-xl font-bold text-gray-300">Full-stack Developer</p>
+            <p class="text-xl font-bold text-gray-300">Software Engineer</p>
             <p className="text-md font-light text-gray-400 ">
-              I'm a passionate developer with expertise in the MERN (MongoDB,
-              Express.js, React.js, and Node.js) stack.
-              <p>
-                Having proven communication skills, I'm good at collaborating
-                with cross-functional teams and clients to deliver exceptional
-                projects within tight deadlines.
-              </p>
-              <p>
-                I'm truly passionate about learning and do consume knowledge
-                pretty fast too.
-              </p>{" "}
-              <p>
-                I'm seeking to leverage my skills and experience to contribute
-                to a dynamic and innovative team in a challenging and rewarding
-                environment.
-              </p>
+              I am a dedicated software developer with expertise in the MERN
+              stack, boasting a proven ability to collaborate with
+              cross-functional teams and clients to deliver outstanding
+              projects. <br /> My passion for learning drives me to rapidly
+              acquire knowledge. I am now seeking an opportunity to apply my
+              skills and experience to a dynamic and innovative team within a
+              challenging and rewarding environment. <br />
+              Fun fact about me: I enjoy watching YouTube videos and have
+              recently started creating content on my own channel,{" "}
+              <a
+                className=""
+                href="https://www.youtube.com/@TechTrafficController"
+              >
+                <FontAwesomeIcon size="1x" icon={faYoutube} />
+                Tech Traffic Controller
+              </a>
+              , to help individuals transition into the tech industry.
             </p>
           </div>
 
@@ -70,9 +84,7 @@ export default function Hero() {
                 <FontAwesomeIcon size="2xl" icon={faGithub} />
               </a>
             </li>
-            {/* <li>
-                        <a href='https://instagram.com/damaasth' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faInstagram} /></a>
-                    </li> */}
+
             <li>
               <a
                 href="htps://linkedin.com/richmond-gakpetor"
@@ -80,6 +92,15 @@ export default function Hero() {
                 target="_blank"
               >
                 <FontAwesomeIcon size="2xl" icon={faLinkedinIn} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/_vision_richie"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FontAwesomeIcon size="2xl" icon={faTwitter} />
               </a>
             </li>
           </ul>

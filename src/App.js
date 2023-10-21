@@ -8,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
+import ProfessionalWork from "./components/ProfessionalWork";
 
 function App() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function App() {
       <Navbar />
       <Hero />
       <Skills />
+      {/* <ProfessionalWork /> */}
       <Projects />
       <Certs />
       <Footer />
