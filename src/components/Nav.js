@@ -56,14 +56,14 @@ export default function Nav() {
               </div>
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex items-center">
-                <a
-                          href={resume}
-                          rel="noreferrer"
-                          target="_blank"
-                          className="bg-teal-500 rounded-full px-4 py-1 border border-teal-800 border border-4"
-                        >
-                          Resume
-                        </a>
+                  <a
+                    href={resume}
+                    rel="noreferrer"
+                    target="_blank"
+                    className="bg-teal-500 rounded-full px-4 py-1 border border-teal-800 border border-4"
+                  >
+                    Resume
+                  </a>
                 </div>
               </div>
               <div className="-mr-2 flex sm:hidden">

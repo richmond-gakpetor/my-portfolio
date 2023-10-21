@@ -14,9 +14,13 @@ export default function Certs() {
         Here are some of my Certifications
       </p>
 
-      {/* <div className="flex flex-col md:flex-row flex-wrap mt-4 gap-5"> */}
       <div className="grid grid-cols-1 md:grid-cols-3 justify-center mt-4 gap-5">
-        <CertCard name="React.js Essential Training" img={react} issued="LinkedIn Learning" date="Sep 2023" />
+        <CertCard
+          name="React.js Essential Training"
+          img={react}
+          issued="LinkedIn Learning"
+          date="Sep 2023"
+        />
         <CertCard
           name="Agile Scrum Master"
           img={agile}
