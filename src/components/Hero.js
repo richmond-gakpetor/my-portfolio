@@ -14,13 +14,13 @@ import hr from "../assets/curve-hr.svg";
 export default function Hero() {
   const [loaded, setLoaded] = useState(true);
 
-  useEffect(() => {
-    const navbarHeight = 68; // Adjust this value to match your actual navbar height
-    const hero = document.getElementById("home");
-    if (hero) {
-      hero.style.marginTop = `${navbarHeight}px`;
-    }
-  }, []);
+  // useEffect(() => {
+  //   const navbarHeight = 68; 
+  //   const hero = document.getElementById("home");
+  //   if (hero) {
+  //     hero.style.marginTop = `${navbarHeight}px`;
+  //   }
+  // }, []);
 
   return (
     <>
@@ -31,7 +31,7 @@ export default function Hero() {
       ) : null}
       <div
         id="home"
-        className="flex w-full h-screen flex-col md:flex-row gap-5 items-center justify-center text-white relative"
+        className="flex w-full mt-4 flex-col md:flex-row gap-5 items-center justify-center text-white relative"
       >
         <div className="md:w-3/6 md:p-4">
           <img
@@ -41,10 +41,11 @@ export default function Hero() {
             src={profile}
             alt="profile"
             onLoad={() => setLoaded(false)}
+            // className="w-full md:w-2/3 lg:w-1/2"
           />
         </div>
         <div
-          className="md:w-3/6"
+          className="md:w-3/6 mb-4"
           data-aos="fade-right"
           data-aos-duration="1000"
           data-aos-offset="100"
@@ -105,7 +106,7 @@ export default function Hero() {
             </li>
           </ul>
         </div>
-        <img src={hr} className="w-full md:h-2 absolute bottom-0" alt="hr" />
+        <img src={hr} className="w-full mt-4 md:h-2 absolute bottom-0" alt="hr" />
       </div>
     </>
   );

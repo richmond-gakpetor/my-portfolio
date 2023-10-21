@@ -9,6 +9,7 @@ import "aos/dist/aos.css";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import ProfessionalWork from "./components/ProfessionalWork";
+import Nav from "./components/Nav";
 
 function App() {
   useEffect(() => {
@@ -17,10 +18,11 @@ function App() {
   }, []);
   return (
     <div className="px-6 lg:px-20 xl:px-36 bg-dark-500">
-      <Navbar />
+      <Nav />
+      {/* <Navbar /> */}
       <Hero />
       <Skills />
-      {/* <ProfessionalWork /> */}
+      <ProfessionalWork />
       <Projects />
       <Certs />
       <Footer />
