@@ -30,7 +30,7 @@ export default function Hero() {
         </div>
       ) : null}
       <div
-        id="home"
+        id="about"
         className="flex w-full mt-4 flex-col md:flex-row gap-5 items-center justify-center text-white relative"
       >
         <div className="md:w-3/6 md:p-4">
