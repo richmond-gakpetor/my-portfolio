@@ -22,23 +22,23 @@ export default function Projects() {
           desc="Need to write a note? Check out the Keeper app. Beatifully designed, excellent functionality!"
         />
         <ProjectCard
-          img={signup}
-          name="Bolt Driver Sign Up"
-          repoLink="https://github.com/richmond-gakpetor/driver-signup"
-          desc="I recreated the Bolt Sign Up page. Love it?"
-        />
-        <ProjectCard
           img={portfolio}
           name="My Portfolio"
           repoLink="https://github.com/richmond-gakpetor/my-portfolio"
           desc="Here you'll find some of the projects I've worked on. Check it out!"
         />
         <ProjectCard
+          img={signup}
+          name="Bolt Driver Sign Up"
+          repoLink="https://github.com/richmond-gakpetor/driver-signup"
+          desc="I recreated the Bolt Sign Up page. Love it?"
+        />
+        {/* <ProjectCard
           img={netlyfe}
           name="Netlyfe App"
           repoLink="https://github.com/bernie-dev-1/Netlyfe/tree/auth"
           desc="Web app for medical consultations and education on diseases"
-        />
+        /> */}
       </div>
       <img src={hr} className="w-full mt-8 md:h-2" alt="hr" />
     </div>

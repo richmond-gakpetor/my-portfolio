@@ -13,9 +13,9 @@ export default function SkillCard(props) {
       ></img>
       <div className="mt-2">
         <h1 className="font-bold md:text-xl">{props.name}</h1>
-        <p className="font-light md:text-lg">
+        {/* <p className="font-light md:text-lg">
           {props.experience} of experience
-        </p>
+        </p> */}
       </div>
     </div>
   );

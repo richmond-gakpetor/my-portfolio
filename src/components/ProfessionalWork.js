@@ -4,6 +4,19 @@ import hr from "../assets/curve-hr.svg";
 
 const projectsData = [
   {
+    name: "RoverApp",
+    description:
+      "A custom-built mobile app for Roverman Productions-the biggest drama production house in Ghana",
+    technologies: ["React Native", "NativeWind", "Expo Router"],
+    liveWebsiteURL: "https://play.google.com/store/apps/details?id=com.hyperpay.rovermanapp",
+  },
+  {
+    name: "EazyEd",
+    description: "An engaging e-learning platform for Ghanaian students",
+    technologies: ["Serverless", "Node.js", "DynamoDB", "Docker"],
+    liveWebsiteURL: "https://eazyed.org/",
+  },
+  {
     name: "Hyperpay GH",
     description: "Event ticketing and payment platform for Ghanaian events",
     technologies: ["React", "Next.js", "Tailwind CSS"],
@@ -22,17 +35,10 @@ const projectsData = [
     liveWebsiteURL: "https://conference.hyperpaygh.com/",
   },
   {
-    name: "GMM Electrical Solutions",
-    description: "Business website for GMM Electrical Solutions",
-    technologies: ["WordPress"],
-    liveWebsiteURL: "https://gmmmep.com/",
-  },
-
-  {
-    name: "HG Medical & Laboratory Services",
-    description: "Business website for HG Medical & Laboratory Services",
-    technologies: ["WordPress"],
-    liveWebsiteURL: "https://hgmedicalservices.com/",
+    name: "Tres-Sol Freight & Logistics",
+    description: "Business website for Tres-Sol Freight & Logistics Company",
+    technologies: ["WordPress", "Web Design"],
+    liveWebsiteURL: "https://tres-solfreight.com/",
   },
 ];
 
